@@ -169,7 +169,7 @@ struct ContentView: View {
             }.popup(isPresented: .constant(self.locationViewModel.authorizationStatus == .denied || self.locationViewModel.authorizationStatus == .restricted), position: .top, autohideIn: 10, dismissCallback: {
                     exit(-1)
                 }) {
-                    MessageView(message: "Please allow this app to access Location Services; otherwise, this app will not work.  Please reset in settings.")
+                    MessageView(message: "Please allow this app to access Location Services; otherwise, this app will not work.  Please reset in settings.  This app will be closed shortly...")
                         .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
