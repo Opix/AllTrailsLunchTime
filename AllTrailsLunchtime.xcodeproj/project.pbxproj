@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA9115A26DF3879002E0005 /* Double+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9115926DF3879002E0005 /* Double+ext.swift */; };
+		0BA9115C26E027D4002E0005 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9115B26E027D4002E0005 /* Constants.swift */; };
+		0BA9115E26E0280C002E0005 /* SortOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9115D26E0280B002E0005 /* SortOptions.swift */; };
+		0BA9116126E052EA002E0005 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116026E052EA002E0005 /* RestaurantDetailsView.swift */; };
+		0BA9116326E0933B002E0005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116226E0933B002E0005 /* AppDelegate.swift */; };
+		0BA9116526E11304002E0005 /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116426E11304002E0005 /* MyProgressView.swift */; };
+		0BA9116726E11CD5002E0005 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116626E11CD5002E0005 /* RatingView.swift */; };
+		0BA9116926E19D24002E0005 /* FilterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116826E19D24002E0005 /* FilterOptions.swift */; };
+		0BA9116B26E1DEF7002E0005 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116A26E1DEF7002E0005 /* MessageView.swift */; };
+		0BA9116F26E26B92002E0005 /* ApiPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9116E26E26B92002E0005 /* ApiPhotos.swift */; };
+		0BDCA88D26D8B24E008F2405 /* AllTrailsLunchtimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA88C26D8B24E008F2405 /* AllTrailsLunchtimeApp.swift */; };
+		0BDCA88F26D8B24E008F2405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA88E26D8B24E008F2405 /* ContentView.swift */; };
+		0BDCA89126D8B250008F2405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDCA89026D8B250008F2405 /* Assets.xcassets */; };
+		0BDCA89426D8B250008F2405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDCA89326D8B250008F2405 /* Preview Assets.xcassets */; };
+		0BDCA89626D8B250008F2405 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA89526D8B250008F2405 /* Persistence.swift */; };
+		0BDCA89926D8B250008F2405 /* AllTrailsLunchtime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA89726D8B250008F2405 /* AllTrailsLunchtime.xcdatamodeld */; };
+		0BDCA8A426D8B250008F2405 /* AllTrailsLunchtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8A326D8B250008F2405 /* AllTrailsLunchtimeTests.swift */; };
+		0BDCA8AF26D8B250008F2405 /* AllTrailsLunchtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8AE26D8B250008F2405 /* AllTrailsLunchtimeUITests.swift */; };
+		0BDCA8C226D8C8F3008F2405 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8C126D8C8F3008F2405 /* RestaurantRow.swift */; };
+		0BDCA8C426D8EB79008F2405 /* ApiRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8C326D8EB79008F2405 /* ApiRestaurant.swift */; };
+		0BDCA8C926D92AE7008F2405 /* View+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8C626D92AE7008F2405 /* View+ext.swift */; };
+		0BDCA8CD26D92DE0008F2405 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8CC26D92DE0008F2405 /* ActionView.swift */; };
+		0BDCA8CF26D941D9008F2405 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8CE26D941D9008F2405 /* NavigationConfigurator.swift */; };
+		0BDCA8D126D94200008F2405 /* NavigationConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA8D026D94200008F2405 /* NavigationConfigurationViewModifier.swift */; };
+		0BEEB9B526DA076C0079D108 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9B426DA076C0079D108 /* SwitchView.swift */; };
+		0BEEB9B726DA783B0079D108 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9B626DA783B0079D108 /* RestaurantModel.swift */; };
+		0BEEB9BA26DA93E30079D108 /* ApiLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9B826DA93E30079D108 /* ApiLocation.swift */; };
+		0BEEB9BB26DA93E30079D108 /* ApiGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9B926DA93E30079D108 /* ApiGeometry.swift */; };
+		0BEEB9C726DAB18A0079D108 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9C626DAB18A0079D108 /* Restaurant.swift */; };
+		0BEEB9C926DAB1930079D108 /* _Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9C826DAB1930079D108 /* _Restaurant.swift */; };
+		0BEEB9CB26DAC30B0079D108 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9CA26DAC30B0079D108 /* RestaurantListView.swift */; };
+		0BEEB9CF26DAC6E90079D108 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9CE26DAC6E80079D108 /* SearchCoordinator.swift */; };
+		0BEEB9D126DACB100079D108 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9D026DACB100079D108 /* ApiResponse.swift */; };
+		0BEEB9D326DB49380079D108 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9D226DB49380079D108 /* Restaurants.swift */; };
+		0BEEB9D526DB53690079D108 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9D426DB53690079D108 /* LocationViewModel.swift */; };
+		0BEEB9D826DB56DE0079D108 /* MapViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9D726DB56DE0079D108 /* MapViewControllerBridge.swift */; };
+		0BEEB9DA26DB59370079D108 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB9D926DB59370079D108 /* MapViewController.swift */; };
+		4DB80F1CBEC256202EDBEA8E /* Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A169E86409C3B81C7F920C05 /* Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework */; };
+		5306FC2BA50F3902A46B3C18 /* Pods_AllTrailsLunchtimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61017F79B904CC2AE0DEFBE /* Pods_AllTrailsLunchtimeTests.framework */; };
+		F4D6A6E5A5C1064ECEFD8BA6 /* Pods_AllTrailsLunchtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A8EB66A714EDFF91AD879 /* Pods_AllTrailsLunchtime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BDCA8A026D8B250008F2405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BDCA88126D8B24E008F2405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BDCA88826D8B24E008F2405;
+			remoteInfo = AllTrailsLunchtime;
+		};
+		0BDCA8AB26D8B250008F2405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BDCA88126D8B24E008F2405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BDCA88826D8B24E008F2405;
+			remoteInfo = AllTrailsLunchtime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA9115926DF3879002E0005 /* Double+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+ext.swift"; sourceTree = "<group>"; };
+		0BA9115B26E027D4002E0005 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0BA9115D26E0280B002E0005 /* SortOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortOptions.swift; sourceTree = "<group>"; };
+		0BA9116026E052EA002E0005 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		0BA9116226E0933B002E0005 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BA9116426E11304002E0005 /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
+		0BA9116626E11CD5002E0005 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = AllTrailsLunchtime/Views/RatingView.swift; sourceTree = SOURCE_ROOT; };
+		0BA9116826E19D24002E0005 /* FilterOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptions.swift; sourceTree = "<group>"; };
+		0BA9116A26E1DEF7002E0005 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		0BA9116E26E26B92002E0005 /* ApiPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiPhotos.swift; sourceTree = "<group>"; };
+		0BDCA88926D8B24E008F2405 /* AllTrailsLunchtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllTrailsLunchtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDCA88C26D8B24E008F2405 /* AllTrailsLunchtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsLunchtimeApp.swift; sourceTree = "<group>"; };
+		0BDCA88E26D8B24E008F2405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BDCA89026D8B250008F2405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BDCA89326D8B250008F2405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BDCA89526D8B250008F2405 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0BDCA89826D8B250008F2405 /* AllTrailsLunchtime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllTrailsLunchtime.xcdatamodel; sourceTree = "<group>"; };
+		0BDCA89A26D8B250008F2405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDCA89F26D8B250008F2405 /* AllTrailsLunchtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsLunchtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDCA8A326D8B250008F2405 /* AllTrailsLunchtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsLunchtimeTests.swift; sourceTree = "<group>"; };
+		0BDCA8A526D8B250008F2405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDCA8AA26D8B250008F2405 /* AllTrailsLunchtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsLunchtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDCA8AE26D8B250008F2405 /* AllTrailsLunchtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsLunchtimeUITests.swift; sourceTree = "<group>"; };
+		0BDCA8B026D8B250008F2405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDCA8C126D8C8F3008F2405 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		0BDCA8C326D8EB79008F2405 /* ApiRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRestaurant.swift; sourceTree = "<group>"; };
+		0BDCA8C626D92AE7008F2405 /* View+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ext.swift"; sourceTree = "<group>"; };
+		0BDCA8CC26D92DE0008F2405 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		0BDCA8CE26D941D9008F2405 /* NavigationConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		0BDCA8D026D94200008F2405 /* NavigationConfigurationViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationConfigurationViewModifier.swift; sourceTree = "<group>"; };
+		0BEEB9B426DA076C0079D108 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwitchView.swift; path = ../../../alltrailslunchtime/AllTrailsLunchtime/Views/SwitchView.swift; sourceTree = "<group>"; };
+		0BEEB9B626DA783B0079D108 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantModel.swift; path = ../../../alltrailslunchtime/AllTrailsLunchtime/Models/RestaurantModel.swift; sourceTree = "<group>"; };
+		0BEEB9B826DA93E30079D108 /* ApiLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiLocation.swift; sourceTree = "<group>"; };
+		0BEEB9B926DA93E30079D108 /* ApiGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiGeometry.swift; sourceTree = "<group>"; };
+		0BEEB9C626DAB18A0079D108 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0BEEB9C826DAB1930079D108 /* _Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Restaurant.swift; sourceTree = "<group>"; };
+		0BEEB9CA26DAC30B0079D108 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		0BEEB9CE26DAC6E80079D108 /* SearchCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		0BEEB9D026DACB100079D108 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiResponse.swift; path = ../../../../alltrailslunchtime/AllTrailsLunchtime/Models/Api/ApiResponse.swift; sourceTree = "<group>"; };
+		0BEEB9D226DB49380079D108 /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurants.swift; path = ../../../alltrailslunchtime/AllTrailsLunchtime/Models/Restaurants.swift; sourceTree = "<group>"; };
+		0BEEB9D426DB53690079D108 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		0BEEB9D726DB56DE0079D108 /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
+		0BEEB9D926DB59370079D108 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2F62B7D9DF47024C370D077C /* Pods-AllTrailsLunchtimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtimeTests.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtimeTests/Pods-AllTrailsLunchtimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9A8EB66A714EDFF91AD879 /* Pods_AllTrailsLunchtime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBF4EDD4DEF7571C327A943 /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A169E86409C3B81C7F920C05 /* Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21B55397B82B1C2EA7893C9 /* Pods-AllTrailsLunchtime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtime.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime.release.xcconfig"; sourceTree = "<group>"; };
+		B167F738F6B7BE1C015B0CAA /* Pods-AllTrailsLunchtime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtime.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime.debug.xcconfig"; sourceTree = "<group>"; };
+		C61017F79B904CC2AE0DEFBE /* Pods_AllTrailsLunchtimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchtimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF877885C8ABDBFC2CC303D5 /* Pods-AllTrailsLunchtimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtimeTests.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtimeTests/Pods-AllTrailsLunchtimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F816F7062CF67168FD6AD2BD /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDCA88626D8B24E008F2405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D6A6E5A5C1064ECEFD8BA6 /* Pods_AllTrailsLunchtime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA89C26D8B250008F2405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5306FC2BA50F3902A46B3C18 /* Pods_AllTrailsLunchtimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA8A726D8B250008F2405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB80F1CBEC256202EDBEA8E /* Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDCA88026D8B24E008F2405 = {
+			isa = PBXGroup;
+			children = (
+				0BDCA88B26D8B24E008F2405 /* AllTrailsLunchtime */,
+				0BDCA8A226D8B250008F2405 /* AllTrailsLunchtimeTests */,
+				0BDCA8AD26D8B250008F2405 /* AllTrailsLunchtimeUITests */,
+				0BDCA88A26D8B24E008F2405 /* Products */,
+				F7280EF4C1C0106A479294A0 /* Pods */,
+				DE17DF25C0FF77B3A5A671E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BDCA88A26D8B24E008F2405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA88926D8B24E008F2405 /* AllTrailsLunchtime.app */,
+				0BDCA89F26D8B250008F2405 /* AllTrailsLunchtimeTests.xctest */,
+				0BDCA8AA26D8B250008F2405 /* AllTrailsLunchtimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BDCA88B26D8B24E008F2405 /* AllTrailsLunchtime */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA88C26D8B24E008F2405 /* AllTrailsLunchtimeApp.swift */,
+				0BA9116226E0933B002E0005 /* AppDelegate.swift */,
+				0BDCA8BE26D8C6F1008F2405 /* Common */,
+				0BEEB9CD26DAC6E80079D108 /* Coordinators */,
+				0BDCA8C526D92AE7008F2405 /* Extensions */,
+				0BDCA8BD26D8C6EA008F2405 /* Models */,
+				0BDCA8BC26D8C6DA008F2405 /* Views */,
+				0BDCA89026D8B250008F2405 /* Assets.xcassets */,
+				0BDCA89A26D8B250008F2405 /* Info.plist */,
+				0BDCA89226D8B250008F2405 /* Preview Content */,
+			);
+			path = AllTrailsLunchtime;
+			sourceTree = "<group>";
+		};
+		0BDCA89226D8B250008F2405 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA89326D8B250008F2405 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BDCA8A226D8B250008F2405 /* AllTrailsLunchtimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA8A326D8B250008F2405 /* AllTrailsLunchtimeTests.swift */,
+				0BDCA8A526D8B250008F2405 /* Info.plist */,
+			);
+			path = AllTrailsLunchtimeTests;
+			sourceTree = "<group>";
+		};
+		0BDCA8AD26D8B250008F2405 /* AllTrailsLunchtimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA8AE26D8B250008F2405 /* AllTrailsLunchtimeUITests.swift */,
+				0BDCA8B026D8B250008F2405 /* Info.plist */,
+			);
+			path = AllTrailsLunchtimeUITests;
+			sourceTree = "<group>";
+		};
+		0BDCA8BC26D8C6DA008F2405 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9CC26DAC5420079D108 /* List */,
+				0BEEB9D626DB56DE0079D108 /* Map */,
+				0BDCA8D226D9424D008F2405 /* NavigationConfiguration */,
+				0BDCA8CC26D92DE0008F2405 /* ActionView.swift */,
+				0BDCA88E26D8B24E008F2405 /* ContentView.swift */,
+				0BA9116A26E1DEF7002E0005 /* MessageView.swift */,
+				0BA9116426E11304002E0005 /* MyProgressView.swift */,
+				0BA9116626E11CD5002E0005 /* RatingView.swift */,
+				0BEEB9B426DA076C0079D108 /* SwitchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BDCA8BD26D8C6EA008F2405 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA89726D8B250008F2405 /* AllTrailsLunchtime.xcdatamodeld */,
+				0BEEB9BC26DA96750079D108 /* Api */,
+				0BEEB9C126DAB09A0079D108 /* Human */,
+				0BEEB9BE26DAB09A0079D108 /* Machine */,
+				0BDCA89526D8B250008F2405 /* Persistence.swift */,
+				0BEEB9B626DA783B0079D108 /* RestaurantModel.swift */,
+				0BEEB9D226DB49380079D108 /* Restaurants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BDCA8BE26D8C6F1008F2405 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0BA9115B26E027D4002E0005 /* Constants.swift */,
+				0BA9116826E19D24002E0005 /* FilterOptions.swift */,
+				0BA9115D26E0280B002E0005 /* SortOptions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0BDCA8C526D92AE7008F2405 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BA9115926DF3879002E0005 /* Double+ext.swift */,
+				0BDCA8C626D92AE7008F2405 /* View+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0BDCA8D226D9424D008F2405 /* NavigationConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCA8D026D94200008F2405 /* NavigationConfigurationViewModifier.swift */,
+				0BDCA8CE26D941D9008F2405 /* NavigationConfigurator.swift */,
+			);
+			path = NavigationConfiguration;
+			sourceTree = "<group>";
+		};
+		0BEEB9BC26DA96750079D108 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9B926DA93E30079D108 /* ApiGeometry.swift */,
+				0BEEB9B826DA93E30079D108 /* ApiLocation.swift */,
+				0BA9116E26E26B92002E0005 /* ApiPhotos.swift */,
+				0BEEB9D026DACB100079D108 /* ApiResponse.swift */,
+				0BDCA8C326D8EB79008F2405 /* ApiRestaurant.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		0BEEB9BE26DAB09A0079D108 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9C826DAB1930079D108 /* _Restaurant.swift */,
+			);
+			name = Machine;
+			path = ../../../alltrailslunchtime/AllTrailsLunchtime/Models/Machine;
+			sourceTree = "<group>";
+		};
+		0BEEB9C126DAB09A0079D108 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9C626DAB18A0079D108 /* Restaurant.swift */,
+			);
+			name = Human;
+			path = ../../../alltrailslunchtime/AllTrailsLunchtime/Models/Human;
+			sourceTree = "<group>";
+		};
+		0BEEB9CC26DAC5420079D108 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0BA9116026E052EA002E0005 /* RestaurantDetailsView.swift */,
+				0BEEB9CA26DAC30B0079D108 /* RestaurantListView.swift */,
+				0BDCA8C126D8C8F3008F2405 /* RestaurantRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		0BEEB9CD26DAC6E80079D108 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9D426DB53690079D108 /* LocationViewModel.swift */,
+				0BEEB9CE26DAC6E80079D108 /* SearchCoordinator.swift */,
+			);
+			name = Coordinators;
+			path = ../../alltrailslunchtime/AllTrailsLunchtime/Coordinators;
+			sourceTree = "<group>";
+		};
+		0BEEB9D626DB56DE0079D108 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEB9D926DB59370079D108 /* MapViewController.swift */,
+				0BEEB9D726DB56DE0079D108 /* MapViewControllerBridge.swift */,
+			);
+			name = Map;
+			path = AllTrailsLunchtime/Views/Map;
+			sourceTree = SOURCE_ROOT;
+		};
+		DE17DF25C0FF77B3A5A671E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A8EB66A714EDFF91AD879 /* Pods_AllTrailsLunchtime.framework */,
+				A169E86409C3B81C7F920C05 /* Pods_AllTrailsLunchtime_AllTrailsLunchtimeUITests.framework */,
+				C61017F79B904CC2AE0DEFBE /* Pods_AllTrailsLunchtimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7280EF4C1C0106A479294A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B167F738F6B7BE1C015B0CAA /* Pods-AllTrailsLunchtime.debug.xcconfig */,
+				A21B55397B82B1C2EA7893C9 /* Pods-AllTrailsLunchtime.release.xcconfig */,
+				9CBF4EDD4DEF7571C327A943 /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.debug.xcconfig */,
+				F816F7062CF67168FD6AD2BD /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.release.xcconfig */,
+				2F62B7D9DF47024C370D077C /* Pods-AllTrailsLunchtimeTests.debug.xcconfig */,
+				DF877885C8ABDBFC2CC303D5 /* Pods-AllTrailsLunchtimeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BDCA88826D8B24E008F2405 /* AllTrailsLunchtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDCA8B326D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtime" */;
+			buildPhases = (
+				1C5272213219715EA02D3648 /* [CP] Check Pods Manifest.lock */,
+				0BDCA88526D8B24E008F2405 /* Sources */,
+				0BDCA88626D8B24E008F2405 /* Frameworks */,
+				0BDCA88726D8B24E008F2405 /* Resources */,
+				0BEEB9BD26DAACF40079D108 /* ShellScript */,
+				13F825342D53067A413C5AF7 /* [CP] Copy Pods Resources */,
+				AC48F458A48BAA8340503B63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllTrailsLunchtime;
+			productName = AllTrailsLunchtime;
+			productReference = 0BDCA88926D8B24E008F2405 /* AllTrailsLunchtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BDCA89E26D8B250008F2405 /* AllTrailsLunchtimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDCA8B626D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtimeTests" */;
+			buildPhases = (
+				5C2337CA44C6CC658E7CCC3A /* [CP] Check Pods Manifest.lock */,
+				0BDCA89B26D8B250008F2405 /* Sources */,
+				0BDCA89C26D8B250008F2405 /* Frameworks */,
+				0BDCA89D26D8B250008F2405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDCA8A126D8B250008F2405 /* PBXTargetDependency */,
+			);
+			name = AllTrailsLunchtimeTests;
+			productName = AllTrailsLunchtimeTests;
+			productReference = 0BDCA89F26D8B250008F2405 /* AllTrailsLunchtimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BDCA8A926D8B250008F2405 /* AllTrailsLunchtimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDCA8B926D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtimeUITests" */;
+			buildPhases = (
+				88FE683C77B9A0D87DEE4880 /* [CP] Check Pods Manifest.lock */,
+				0BDCA8A626D8B250008F2405 /* Sources */,
+				0BDCA8A726D8B250008F2405 /* Frameworks */,
+				0BDCA8A826D8B250008F2405 /* Resources */,
+				5B2710C2D1A47D3A57A81099 /* [CP] Copy Pods Resources */,
+				C89B940AD5A03BD7C2810E1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDCA8AC26D8B250008F2405 /* PBXTargetDependency */,
+			);
+			name = AllTrailsLunchtimeUITests;
+			productName = AllTrailsLunchtimeUITests;
+			productReference = 0BDCA8AA26D8B250008F2405 /* AllTrailsLunchtimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BDCA88126D8B24E008F2405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0BDCA88826D8B24E008F2405 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0BDCA89E26D8B250008F2405 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0BDCA88826D8B24E008F2405;
+					};
+					0BDCA8A926D8B250008F2405 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0BDCA88826D8B24E008F2405;
+					};
+				};
+			};
+			buildConfigurationList = 0BDCA88426D8B24E008F2405 /* Build configuration list for PBXProject "AllTrailsLunchtime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BDCA88026D8B24E008F2405;
+			productRefGroup = 0BDCA88A26D8B24E008F2405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BDCA88826D8B24E008F2405 /* AllTrailsLunchtime */,
+				0BDCA89E26D8B250008F2405 /* AllTrailsLunchtimeTests */,
+				0BDCA8A926D8B250008F2405 /* AllTrailsLunchtimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDCA88726D8B24E008F2405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDCA89426D8B250008F2405 /* Preview Assets.xcassets in Resources */,
+				0BDCA89126D8B250008F2405 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA89D26D8B250008F2405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA8A826D8B250008F2405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEEB9BD26DAACF40079D108 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#cd AllTrailsLunchTime/Model\n#PATH=${PATH}:/usr/local/bin\n#mogenerator --template-var arc=true --swift --machine-dir=Machine --human-dir=Human -m AllTrailsLunchTime.xcdatamodeld/\n";
+		};
+		13F825342D53067A413C5AF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C5272213219715EA02D3648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchtime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2710C2D1A47D3A57A81099 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2337CA44C6CC658E7CCC3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchtimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FE683C77B9A0D87DEE4880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC48F458A48BAA8340503B63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime/Pods-AllTrailsLunchtime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89B940AD5A03BD7C2810E1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests/Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDCA88526D8B24E008F2405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA9115C26E027D4002E0005 /* Constants.swift in Sources */,
+				0BDCA8CD26D92DE0008F2405 /* ActionView.swift in Sources */,
+				0BEEB9BB26DA93E30079D108 /* ApiGeometry.swift in Sources */,
+				0BA9116926E19D24002E0005 /* FilterOptions.swift in Sources */,
+				0BA9116726E11CD5002E0005 /* RatingView.swift in Sources */,
+				0BEEB9D126DACB100079D108 /* ApiResponse.swift in Sources */,
+				0BA9116326E0933B002E0005 /* AppDelegate.swift in Sources */,
+				0BDCA8D126D94200008F2405 /* NavigationConfigurationViewModifier.swift in Sources */,
+				0BDCA8C226D8C8F3008F2405 /* RestaurantRow.swift in Sources */,
+				0BDCA89926D8B250008F2405 /* AllTrailsLunchtime.xcdatamodeld in Sources */,
+				0BEEB9B526DA076C0079D108 /* SwitchView.swift in Sources */,
+				0BA9115E26E0280C002E0005 /* SortOptions.swift in Sources */,
+				0BA9116B26E1DEF7002E0005 /* MessageView.swift in Sources */,
+				0BEEB9DA26DB59370079D108 /* MapViewController.swift in Sources */,
+				0BA9116126E052EA002E0005 /* RestaurantDetailsView.swift in Sources */,
+				0BEEB9CB26DAC30B0079D108 /* RestaurantListView.swift in Sources */,
+				0BDCA8C426D8EB79008F2405 /* ApiRestaurant.swift in Sources */,
+				0BDCA89626D8B250008F2405 /* Persistence.swift in Sources */,
+				0BDCA8CF26D941D9008F2405 /* NavigationConfigurator.swift in Sources */,
+				0BEEB9C926DAB1930079D108 /* _Restaurant.swift in Sources */,
+				0BA9116526E11304002E0005 /* MyProgressView.swift in Sources */,
+				0BDCA88F26D8B24E008F2405 /* ContentView.swift in Sources */,
+				0BEEB9D326DB49380079D108 /* Restaurants.swift in Sources */,
+				0BEEB9B726DA783B0079D108 /* RestaurantModel.swift in Sources */,
+				0BDCA8C926D92AE7008F2405 /* View+ext.swift in Sources */,
+				0BDCA88D26D8B24E008F2405 /* AllTrailsLunchtimeApp.swift in Sources */,
+				0BEEB9D826DB56DE0079D108 /* MapViewControllerBridge.swift in Sources */,
+				0BEEB9CF26DAC6E90079D108 /* SearchCoordinator.swift in Sources */,
+				0BA9116F26E26B92002E0005 /* ApiPhotos.swift in Sources */,
+				0BEEB9C726DAB18A0079D108 /* Restaurant.swift in Sources */,
+				0BEEB9BA26DA93E30079D108 /* ApiLocation.swift in Sources */,
+				0BA9115A26DF3879002E0005 /* Double+ext.swift in Sources */,
+				0BEEB9D526DB53690079D108 /* LocationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA89B26D8B250008F2405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDCA8A426D8B250008F2405 /* AllTrailsLunchtimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDCA8A626D8B250008F2405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDCA8AF26D8B250008F2405 /* AllTrailsLunchtimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BDCA8A126D8B250008F2405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BDCA88826D8B24E008F2405 /* AllTrailsLunchtime */;
+			targetProxy = 0BDCA8A026D8B250008F2405 /* PBXContainerItemProxy */;
+		};
+		0BDCA8AC26D8B250008F2405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BDCA88826D8B24E008F2405 /* AllTrailsLunchtime */;
+			targetProxy = 0BDCA8AB26D8B250008F2405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BDCA8B126D8B250008F2405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BDCA8B226D8B250008F2405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BDCA8B426D8B250008F2405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B167F738F6B7BE1C015B0CAA /* Pods-AllTrailsLunchtime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AllTrailsLunchtime/Preview Content\"";
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AllTrailsLunchtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BDCA8B526D8B250008F2405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21B55397B82B1C2EA7893C9 /* Pods-AllTrailsLunchtime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AllTrailsLunchtime/Preview Content\"";
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AllTrailsLunchtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BDCA8B726D8B250008F2405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F62B7D9DF47024C370D077C /* Pods-AllTrailsLunchtimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				INFOPLIST_FILE = AllTrailsLunchtimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllTrailsLunchtime.app/AllTrailsLunchtime";
+			};
+			name = Debug;
+		};
+		0BDCA8B826D8B250008F2405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF877885C8ABDBFC2CC303D5 /* Pods-AllTrailsLunchtimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				INFOPLIST_FILE = AllTrailsLunchtimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllTrailsLunchtime.app/AllTrailsLunchtime";
+			};
+			name = Release;
+		};
+		0BDCA8BA26D8B250008F2405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBF4EDD4DEF7571C327A943 /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				INFOPLIST_FILE = AllTrailsLunchtimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllTrailsLunchtime;
+			};
+			name = Debug;
+		};
+		0BDCA8BB26D8B250008F2405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F816F7062CF67168FD6AD2BD /* Pods-AllTrailsLunchtime-AllTrailsLunchtimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGCF2MYHTJ;
+				INFOPLIST_FILE = AllTrailsLunchtimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opix.AllTrailsLunchtimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllTrailsLunchtime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDCA88426D8B24E008F2405 /* Build configuration list for PBXProject "AllTrailsLunchtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDCA8B126D8B250008F2405 /* Debug */,
+				0BDCA8B226D8B250008F2405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDCA8B326D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDCA8B426D8B250008F2405 /* Debug */,
+				0BDCA8B526D8B250008F2405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDCA8B626D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDCA8B726D8B250008F2405 /* Debug */,
+				0BDCA8B826D8B250008F2405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDCA8B926D8B250008F2405 /* Build configuration list for PBXNativeTarget "AllTrailsLunchtimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDCA8BA26D8B250008F2405 /* Debug */,
+				0BDCA8BB26D8B250008F2405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0BDCA89726D8B250008F2405 /* AllTrailsLunchtime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0BDCA89826D8B250008F2405 /* AllTrailsLunchtime.xcdatamodel */,
+			);
+			currentVersion = 0BDCA89826D8B250008F2405 /* AllTrailsLunchtime.xcdatamodel */;
+			path = AllTrailsLunchtime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0BDCA88126D8B24E008F2405 /* Project object */;
+}
