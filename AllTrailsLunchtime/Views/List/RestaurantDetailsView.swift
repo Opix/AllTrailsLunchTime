@@ -80,7 +80,7 @@ struct RestaurantDetailsView: View {
                 .padding(.vertical, kHalfPadding / 2)
                 .padding(.leading, kHalfPadding)
 
-                Text("Customer Reviews")
+                Text("Customer Reviews Total")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(kHalfPadding)
                     .background(Color(UIColor.systemGray5))
