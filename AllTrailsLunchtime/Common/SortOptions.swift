@@ -26,9 +26,9 @@ enum SortOptions: Int, CaseIterable, Identifiable {
             case .nameZtoA:
                 return "Name Z to A"
             case .priceLowToHigh:
-                return "Price $ to $$$"
+                return "Price $ to $$$$"
             case .priceHighToLow:
-                return "Price $$$ to $"
+                return "Price $$$$ to $"
             case .ratingLowToHigh:
                 return "Rating Low to High"
             case .ratingHighToLow:
