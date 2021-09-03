@@ -58,7 +58,8 @@ struct ContentView: View {
                             DispatchQueue.main.async {
                                 guard errorMessage == nil,
                                       let newRestaurants = source else {
-                                        restaurants.list.removeAll()
+                                    restaurants.list.removeAll()
+                                    self.errorMessage = errorMessage
                                     return
                                 }
                                 updateRestaurantList(newRestaurants)
@@ -121,7 +122,7 @@ struct ContentView: View {
                                         DispatchQueue.main.async {
                                             guard errorMessage == nil,
                                                   let newRestaurants = source else {
-                                                    restaurants.list.removeAll()
+                                                restaurants.list.removeAll()
                                                 self.errorMessage = errorMessage
                                                 return
                                             }
