@@ -19,8 +19,10 @@ class AllTrailsLunchtimeTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertTrue(priceRangeAsDollarSigns(priceLevel: 1) == "$")
+        XCTAssertTrue(priceRangeAsDollarSigns(priceLevel: 2) == "$$")
+        XCTAssertTrue(priceRangeAsDollarSigns(priceLevel: 3) == "$$$")
+        XCTAssertTrue(priceRangeAsDollarSigns(priceLevel: 4) == "$$$$")
     }
 
     func testPerformanceExample() throws {
@@ -28,6 +30,16 @@ class AllTrailsLunchtimeTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func priceRangeAsDollarSigns(priceLevel: Int) -> String {
+        var level = "$" // At least one $.
+
+        for _ in 1..<priceLevel {
+            level = "\(level)$"
+        }
+        
+        return level
     }
 
 }
